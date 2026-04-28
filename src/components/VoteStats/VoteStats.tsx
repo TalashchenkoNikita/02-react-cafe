@@ -7,7 +7,7 @@ interface VoteStatsProps {
     positiveRate: number
 }
 
-export default function VoteStats({votes, totalVotes=0, positiveRate=0}: VoteStatsProps) {
+export default function VoteStats({votes, totalVotes, positiveRate}: VoteStatsProps) {
   return (
     <div className={styles.container}>
       <p className={styles.stat}>
